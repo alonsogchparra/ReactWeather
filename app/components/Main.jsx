@@ -1,7 +1,6 @@
 var React = require('react');
 var Nav = require('Nav');
 
-
 var Main = (props) => {
     return (
         <div>
@@ -13,6 +12,6 @@ var Main = (props) => {
             </div>
         </div>
     );
-};
+}
 
 module.exports = Main;

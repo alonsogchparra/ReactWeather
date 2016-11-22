@@ -30,7 +30,8 @@ module.exports = {
             About: 'app/components/About.jsx',
             Examples: 'app/components/Examples.jsx',
             openWeatherMap: 'app/api/openWeatherMap.jsx',
-            ErrorModal: 'app/components/ErrorModal.jsx'
+            ErrorModal: 'app/components/ErrorModal.jsx',
+            applicationStyles: 'app/styles/app.css'
         },
         extensions: ['', '.js', '.jsx']
     },
@@ -46,5 +47,5 @@ module.exports = {
             }
         ]
     },
-    devtool:'cheap-module-eval-source-map'
+    devtool: 'cheap-module-eval-source-map'
 };
